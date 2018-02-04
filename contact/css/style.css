@@ -8,21 +8,19 @@ box-sizing:border-box;
 -moz-box-sizing:border-box;
 -webkit-box-sizing:border-box;
 }
-
+html{
+        background: url("../img/trees.jpg") no-repeat center center fixed;
+   	 background-size: cover;
+    
+}
 body{
     font-family: "Cinzel";
-    color: white;
-}
-.back{
-    z-index: -1;
-    background: linear-gradient(to bottom, #1e5799 0%,#113c60 50%,#0c3b62 51%,#06243b 100%);
-    width: 100%;
-    height: 2000px;
-    position: fixed;
+    
 }
 nav{
+    font-family: "Cinzel";
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
     
 }
@@ -59,30 +57,22 @@ ul li ul li{
 ul li:hover ul li{
     display: block;
 }
+
 h1{
-    font-family: "Cinzel", serif;
-    z-index: 1;
-    color: rgba(0,0,0,.5);
+    font-size: 48px;
+    text-shadow: 0px 0px 25px rgb(0,0,0);
+}
+.welcome{
     text-align: center;
-    margin-top:7.5%;
-    
+    color: white;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
 }
-.lovely:hover .squid{
-    background: url("../img/hearteye.png");
-}
-.squid{
-    z-index: 1;
-    background: url("../img/squid.png");
-    background-repeat: no-repeat;
-    
-    width: 600px;
-    height: 600px;
-    margin: 0 auto;
-    vertical-align: middle;
-    transition: opacity 4s ease-in;
-}
-
-
-
-
-
