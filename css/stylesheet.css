@@ -8,7 +8,10 @@ box-sizing:border-box;
 -moz-box-sizing:border-box;
 -webkit-box-sizing:border-box;
 }
-
+html{
+    background: url(../img/colorado.png) no-repeat center center fixed;
+    background-size: cover;
+}
 body{
     font-family: "Cinzel";
     color: white;
@@ -21,6 +24,7 @@ body{
     position: fixed;
 }
 nav{
+    background: rgba(0,0,0,.5);
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -62,7 +66,8 @@ ul li:hover ul li{
 h1{
     font-family: "Cinzel", serif;
     z-index: 1;
-    color: rgba(0,0,0,.5);
+    color: rgba(255, 255, 255, 0.97);
+    text-shadow: 0px 0px 10px rgb(0,0,0);
     text-align: center;
     margin-top:7.5%;
     
@@ -82,6 +87,14 @@ h1{
     transition: opacity 4s ease-in;
 }
 
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+}
 
 
 

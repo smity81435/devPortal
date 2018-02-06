@@ -9,7 +9,7 @@ box-sizing:border-box;
 -webkit-box-sizing:border-box;
 }
 html{
-        background: url("../img/baker.jpg") no-repeat center center fixed;
+        background: url("../img/niledelta.png") no-repeat center center fixed;
     background-size: cover;
     
 }
@@ -19,6 +19,7 @@ body{
 }
 
 nav{
+    background: rgba(0,0,0,.5);
     font-family: "Cinzel";
     display: flex;
     justify-content: space-between;
@@ -76,4 +77,13 @@ h1{
 
     margin: auto;
 
+}
+footer{
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
 }
